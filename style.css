@@ -1,0 +1,71 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+.logo{
+    text-align: center;
+    color: purple;
+    text-shadow: 2px 2px 5px purple;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.spots{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 75vh;
+}
+.all{
+  background-image: url(./images/tourist.jpg);
+}
+.ratargul{
+    background-image: url(./images/ratargul.jpg);
+}
+.cox{
+    background-image: url(./images/cox-bazar.jpg);
+}
+.sylhet{
+    background-image: url(./images/sylhet.jpg);
+}
+.madhab{
+    background-image: url(./images/madhabkundu.jpg);
+}
+.spots h2{
+    color: white;
+    text-shadow: 1px 1px 5px #2b3030;
+    font-weight: 7000;
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding: 80px;
+}
+.spot-detail{
+    margin: 0 100px;
+    text-align: center;
+}
+.spot-detail p{
+    text-align: justify;
+}
+.spot-detail h2{
+    text-align: center;
+    color: tomato;
+}
+.spot-detail a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: tomato;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.spot-detail a:hover{
+    border: 2px solid tomato;
+    background-color: white;
+    color: tomato;
+    transition: 1s;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
